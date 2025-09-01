@@ -68,26 +68,14 @@ body {
 }
 
 /* Ultra-wide screens (≥1600px): scale up fonts and stretch cards */
+/* Ultra-wide screens (≥1600px): scale up fonts */ 
 @media (min-width: 1600px) {
-  .grid {
-    gap: 12px;                        /* increase gap slightly */
-    padding: 14px;                    /* more breathing space */
-  }
-
-  .card {
-    padding: 20px;                    /* larger internal padding */
-    min-height: 220px;                /* taller cards */
-    font-size: 1.05rem;               /* base font size increase */
-  }
-
-  .country { font-size: 1.6rem; }
-  .time { font-size: 2.4rem; }
-  .utc, .date { font-size: 1.1rem; }
-
-  .bar-chip { font-size: 1.3rem; padding: 6px 10px; }
-  .center-bar-chip { font-size: 1.25rem; padding: 8px 14px; }
-  .legend-text { font-size: 1.15rem; }
-}
+ .country { font-size: 1.6rem; }
+ .time { font-size: 2.4rem; } 
+ .utc, .date { font-size: 1.1rem; }
+ .bar-chip { font-size: 1.3rem; padding: 6px 10px; }
+ .center-bar-chip { font-size: 1.25rem; padding: 8px 14px; } 
+ .legend-text { font-size: 1.15rem; } }
 
 
 /* ====== Bar-Container (encloses bar + its cards) ====== */
@@ -221,4 +209,5 @@ body {
   font-weight: 600;
   font-size: 1rem;
 }
+
 
